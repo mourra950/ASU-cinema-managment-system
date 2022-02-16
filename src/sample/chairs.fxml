@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="545.0" prefWidth="913.0" style="visibility: 1;" styleClass="anchor" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.chaircontroller">
+   <children>
+      <ImageView fitHeight="54.0" fitWidth="85.0" layoutX="115.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" styleClass="login">
+         <image>
+            <Image url="@../armchair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="85.0" layoutX="264.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" styleClass="login">
+         <image>
+            <Image url="@../armchair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="85.0" layoutX="424.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../armchair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="85.0" layoutX="583.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" styleClass="login">
+         <image>
+            <Image url="@../armchair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="85.0" layoutX="744.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" styleClass="login">
+         <image>
+            <Image url="@../armchair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="85.0" layoutX="115.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true" styleClass="login">
+         <image>
+            <Image url="@../armchair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="85.0" layoutX="264.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true" styleClass="login">
+         <image>
+            <Image url="@../armchair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="85.0" layoutX="424.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true" styleClass="login">
+         <image>
+            <Image url="@../armchair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="85.0" layoutX="583.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true" styleClass="login">
+         <image>
+            <Image url="@../armchair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="85.0" layoutX="742.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true" styleClass="login">
+         <image>
+            <Image url="@../armchair.png" />
+         </image>
+      </ImageView>
+      <CheckBox fx:id="check1" layoutX="128.0" layoutY="293.0" mnemonicParsing="false" text="1" />
+      <CheckBox fx:id="check2" layoutX="277.0" layoutY="293.0" mnemonicParsing="false" text="2" />
+      <CheckBox fx:id="check3" layoutX="436.0" layoutY="293.0" mnemonicParsing="false" text="3" />
+      <CheckBox fx:id="check4" layoutX="596.0" layoutY="293.0" mnemonicParsing="false" text="4" />
+      <CheckBox fx:id="check5" layoutX="757.0" layoutY="293.0" mnemonicParsing="false" text="5" />
+      <CheckBox fx:id="check6" layoutX="124.0" layoutY="411.0" mnemonicParsing="false" text="6" />
+      <CheckBox fx:id="check7" layoutX="273.0" layoutY="411.0" mnemonicParsing="false" text="7" />
+      <CheckBox fx:id="check8" layoutX="432.0" layoutY="411.0" mnemonicParsing="false" text="8" />
+      <CheckBox fx:id="check9" layoutX="592.0" layoutY="411.0" mnemonicParsing="false" text="9" />
+      <CheckBox fx:id="check10" layoutX="753.0" layoutY="405.0" mnemonicParsing="false" text="10" />
+      <ChoiceBox fx:id="TimeSLot" layoutX="48.0" layoutY="67.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="Payment" layoutX="270.0" layoutY="67.0" prefHeight="25.0" prefWidth="143.0" />
+      <ChoiceBox fx:id="Movie" layoutX="496.0" layoutY="67.0" prefWidth="150.0" />
+      <Text layoutX="100.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time Slot" />
+      <Text layoutX="322.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment" />
+      <Text layoutX="551.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="movie" />
+      <DatePicker fx:id="datep" layoutX="724.0" layoutY="67.0" showWeekNumbers="true" />
+      <Button layoutX="364.0" layoutY="500.0" mnemonicParsing="false" onAction="#reserve" text="reserve" />
+      <Button fx:id="ref" layoutX="784.0" layoutY="105.0" mnemonicParsing="false" onAction="#refresh" text="refesh" />
+      <Text fx:id="dateL" layoutX="793.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Button layoutX="494.0" layoutY="500.0" mnemonicParsing="false" onAction="#back" text="back" />
+      <Text layoutX="433.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="screen" />
+   </children>
+</AnchorPane>

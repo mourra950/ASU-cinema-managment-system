@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="987.0" styleClass="anchor" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.admindetail">
+   <children>
+      <Button fx:id="Trailer" layoutX="306.0" layoutY="135.0" mnemonicParsing="false" onAction="#opentrailer" prefHeight="25.0" prefWidth="41.0" />
+      <Button fx:id="Description" layoutX="306.0" layoutY="220.0" mnemonicParsing="false" onAction="#opendescription" prefHeight="25.0" prefWidth="41.0" />
+      <Button fx:id="Cast" layoutX="306.0" layoutY="386.0" mnemonicParsing="false" onAction="#opencast" prefHeight="25.0" prefWidth="41.0" />
+      <Button fx:id="back" layoutX="882.0" layoutY="499.0" mnemonicParsing="false" onAction="#backtomain" prefHeight="25.0" prefWidth="49.0" text="Back" />
+      <Button fx:id="updateposter" layoutX="306.0" layoutY="309.0" mnemonicParsing="false" onAction="#openposter" prefHeight="25.0" prefWidth="41.0" />
+      <TextField fx:id="trailer" layoutX="362.0" layoutY="135.0" prefHeight="25.0" prefWidth="272.0" promptText="Trailer" />
+      <TextField fx:id="descr" layoutX="362.0" layoutY="220.0" prefHeight="25.0" prefWidth="272.0" promptText="Description" />
+      <TextField fx:id="poster" layoutX="362.0" layoutY="309.0" prefHeight="25.0" prefWidth="272.0" promptText="Poster" />
+      <TextField fx:id="cast" layoutX="362.0" layoutY="386.0" prefHeight="25.0" prefWidth="272.0" promptText="Cast" />
+      <Button fx:id="update" layoutX="803.0" layoutY="499.0" mnemonicParsing="false" onAction="#update" text="update" />
+      <ChoiceBox fx:id="nump" layoutX="71.0" layoutY="499.0" prefHeight="25.0" prefWidth="49.0" />
+      <Text layoutX="56.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Movie number" />
+      <DatePicker fx:id="date" layoutX="407.0" layoutY="495.0" promptText="show until" />
+      <Text layoutX="447.0" layoutY="490.0" strokeType="OUTSIDE" strokeWidth="0.0" text="in Cinema until " />
+      <Button fx:id="name" layoutX="306.0" layoutY="57.0" mnemonicParsing="false" onAction="#nameupdate" prefHeight="25.0" prefWidth="41.0" />
+      <TextField fx:id="name1" layoutX="362.0" layoutY="57.0" prefHeight="25.0" prefWidth="272.0" promptText="name" />
+      <Button layoutX="355.0" layoutY="495.0" mnemonicParsing="false" onAction="#updatedate" prefHeight="25.0" prefWidth="41.0" />
+   </children>
+</AnchorPane>

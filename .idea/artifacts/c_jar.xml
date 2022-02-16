@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="c:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/c_jar</output-path>
+    <root id="archive" name="c.jar">
+      <element id="module-output" name="c" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/activation.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/mail.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/activation-1.1.1 (1).jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-16/lib/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-16/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-16/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-16/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-16/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-16/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-16/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-16/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javafx-sdk-16/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/Projct Gui/mysql-connector-java-8.0.25/mysql-connector-java-8.0.25.jar" path-in-jar="/" />
+      <element id="file-copy" path="$USER_HOME$/Desktop/Projct Gui/mysql-connector-java-8.0.25/mysql-connector-java-8.0.25.jar" />
+      <element id="library" level="project" name="lib" />
+    </root>
+  </artifact>
+</component>
